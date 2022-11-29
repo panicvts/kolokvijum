@@ -1,0 +1,81 @@
+nav {
+    width: 200px;
+    float: left;
+    margin-right: 7px;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: blue;
+    width: 120px;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: darkblue;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    padding: 0px 30px;
+}
+
+main p {
+    text-align: justify;
+    font-family: verdana;
+}
+
+/* DRUGI ZADATAK */
+
+#wrapper {
+    border: 2px solid silver;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+}
+
+.klasaA {
+    float: left;
+    margin: 7px 12px;
+    width: 60%;
+}
+
+.klasA p {
+    text-align: justify;
+}
+
+.klasaB {
+    margin: 7px 12px;
+    width: 35%;
+    height: 90%;
+    float: right;
+    background-image: url('Images/plaza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.klasaB:hover {
+    background-image: url('Images/paradise.jpg');
+}
+
+.klasaB p {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    font-size: 380%;
+}
+
+.klasaB p:hover {
+    color: gray;
+    font-size: 400%;
+}
